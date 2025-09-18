@@ -39,7 +39,7 @@ export class DataService {
     {
       "title": "Figma Design: YouTube Clone",
       "description": "A UI/UX design for a YouTube-style web platform, including a home feed, sidebar navigation, and search functionality.",
-      "thumbnail": "/assets/youtubeclone.png", // Corrected path
+      "thumbnail": "/assets/youtubeclone.png",
       "tags": ["Figma", "UI/UX", "Web Design", "Responsive", "Prototyping"],
       "type": "figma",
       "liveLink": "https://www.figma.com/proto/O4lejqEUd6v8JxsXFnz0qm/Portfolio?node-id=24-187&p=f&t=FVUq2545yVrCJHFN-1&scaling=scale-down&content-scaling=fixed&page-id=123%3A2&starting-point-node-id=24%3A187",
@@ -48,7 +48,7 @@ export class DataService {
     {
       title: 'CookPad',
       description: 'A full-stack recipe sharing app where users can browse, add, edit, and delete recipes with secure authentication.',
-      thumbnail: '/assets/home.png', // Corrected path
+      thumbnail: '/assets/home.png',
       tags: ['Angular', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'],
       type: 'web',
       // liveLink: '#',
@@ -57,7 +57,7 @@ export class DataService {
     {
       "title": "Figma Design: Music Streaming App",
       "description": "A UI/UX design for a mobile music streaming application with features like personalized playlists, now playing view, and 'My Music' section.",
-      "thumbnail": "/assets/musicappui.png", // Corrected path
+      "thumbnail": "/assets/musicappui.png",
       "tags": ["Figma", "UI/UX", "Mobile App", "Music", "Prototyping"],
       "type": "figma",
       "liveLink": "https://www.figma.com/proto/O4lejqEUd6v8JxsXFnz0qm/Portfolio?node-id=44-5&t=55KuB0QhTqtgmE4q-1&scaling=scale-down&content-scaling=fixed&page-id=123%3A4",
@@ -66,7 +66,7 @@ export class DataService {
     {
       "title": "QuizHelix - Java Console App",
       "description": "A Java console application that quizzes users on South African general knowledge. It features randomized questions and answers, and calculates a final score and grade.",
-      "thumbnail": "https://placehold.co/600x400/2D3748/A0AEC0?text=Java+Console+App", // This is a URL and is already correct
+      "thumbnail": "https://placehold.co/600x400/2D3748/A0AEC0?text=Java+Console+App",
       "tags": ["Java", "Console Application", "OOP", "Quiz", "Terminal"],
       "type": "web",
       // "liveLink": "",
@@ -75,7 +75,7 @@ export class DataService {
     {
       "title": "Figma Design: Job Portal App",
       "description": "A comprehensive UI/UX design for a mobile job portal application, focusing on user onboarding, job search, and application tracking.",
-      "thumbnail": "/assets/job-portal-ui.png", // Corrected path
+      "thumbnail": "/assets/job-portal-ui.png",
       "tags": ["Figma", "UI/UX", "Mobile App", "Job Search", "Prototyping"],
       "type": "figma",
       "liveLink": "https://www.figma.com/proto/O4lejqEUd6v8JxsXFnz0qm/Portfolio?node-id=46-131&t=JGPLHBMZiSdYuKZU-1&scaling=min-zoom&content-scaling=fixed&page-id=123%3A6",
