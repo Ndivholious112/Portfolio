@@ -4,10 +4,9 @@ import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-education',
-  templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css'],
   standalone: true,
-  imports: [CommonModule]
+  imports: [CommonModule],
+  templateUrl: './education.component.html'
 })
 export class EducationComponent {
   constructor(public data: DataService) {}

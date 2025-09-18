@@ -1,11 +1,33 @@
-<nav class="p-6 md:px-12 flex justify-between items-center fixed top-0 left-0 w-full z-10 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
+<nav class="p-6 md:px-12 flex justify-between items-center fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-md shadow-lg transition-all duration-300">
   <div class="flex items-center space-x-4">
-    <a href="#" class="text-2xl font-bold text-teal-400">{{ data.name() }}</a>
+    <a href="#" class="text-2xl font-bold text-teal-400 tracking-wide hover:text-teal-300 transition-colors duration-300">
+      {{ name }}
+    </a>
   </div>
-  <div class="flex space-x-6">
-    <a href="#projects" class="text-sm font-medium hover:text-teal-400 transition-colors duration-300">Projects</a>
-    <a href="#about" class="text-sm font-medium hover:text-teal-400 transition-colors duration-300">About</a>
-    <a href="#education" class="text-sm font-medium hover:text-teal-400 transition-colors duration-300">Education</a>
-    <a href="#contact" class="text-sm font-medium hover:text-teal-400 transition-colors duration-300">Contact</a>
+  <div class="hidden md:flex space-x-8">
+    <a href="#projects" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
+      Projects
+    </a>
+    <a href="#about" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
+      About
+    </a>
+    <a href="#education" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
+      Education
+    </a>
+    <a href="#contact" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
+      Contact
+    </a>
   </div>
+  <button class="md:hidden text-white hover:text-teal-400 transition-colors duration-300 focus:outline-none">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+    </svg>
+  </button>
 </nav>
+
+<div id="mobile-menu" class="hidden md:hidden fixed top-20 left-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md p-6 flex flex-col items-center space-y-6">
+  <a href="#projects" class="text-lg font-medium text-white hover:text-teal-400">Projects</a>
+  <a href="#about" class="text-lg font-medium text-white hover:text-teal-400">About</a>
+  <a href="#education" class="text-lg font-medium text-white hover:text-teal-400">Education</a>
+  <a href="#contact" class="text-lg font-medium text-white hover:text-teal-400">Contact</a>
+</div>
