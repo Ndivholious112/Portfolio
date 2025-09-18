@@ -1,6 +1,6 @@
 <nav class="p-6 md:px-12 flex justify-between items-center fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-md shadow-lg transition-all duration-300">
   <div class="flex items-center space-x-4">
-    <a href="#" class="text-2xl font-bold text-teal-400 tracking-wide hover:text-teal-300 transition-colors duration-300">
+    <a href="#" class="text-2xl font-bold tracking-wide transition-colors duration-300 name-gradient">
       {{ name }}
     </a>
   </div>
@@ -18,16 +18,18 @@
       Contact
     </a>
   </div>
-  <button class="md:hidden text-white hover:text-teal-400 transition-colors duration-300 focus:outline-none">
+  <button (click)="toggleMenu()" class="md:hidden text-white hover:text-teal-400 transition-colors duration-300 focus:outline-none">
     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
     </svg>
   </button>
 </nav>
 
-<div id="mobile-menu" class="hidden md:hidden fixed top-20 left-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md p-6 flex flex-col items-center space-y-6">
-  <a href="#projects" class="text-lg font-medium text-white hover:text-teal-400">Projects</a>
-  <a href="#about" class="text-lg font-medium text-white hover:text-teal-400">About</a>
-  <a href="#education" class="text-lg font-medium text-white hover:text-teal-400">Education</a>
-  <a href="#contact" class="text-lg font-medium text-white hover:text-teal-400">Contact</a>
+<div
+  [ngClass]="{'hidden': !isMenuOpen, 'flex': isMenuOpen}"
+  class="md:hidden fixed inset-0 z-40 bg-gray-900 bg-opacity-95 backdrop-blur-md flex-col items-center justify-center space-y-6 transition-all duration-300">
+  <a (click)="toggleMenu()" href="#projects" class="text-2xl font-medium text-white hover:text-teal-400">Projects</a>
+  <a (click)="toggleMenu()" href="#about" class="text-2xl font-medium text-white hover:text-teal-400">About</a>
+  <a (click)="toggleMenu()" href="#education" class="text-2xl font-medium text-white hover:text-teal-400">Education</a>
+  <a (click)="toggleMenu()" href="#contact" class="text-2xl font-medium text-white hover:text-teal-400">Contact</a>
 </div>

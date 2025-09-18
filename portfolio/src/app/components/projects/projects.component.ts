@@ -9,5 +9,15 @@ import { DataService } from '../../services/data.service';
   templateUrl: './projects.component.html'
 })
 export class ProjectsComponent {
+  selectedImage: string | null = null;
+
   constructor(public data: DataService) {}
+
+  openImageModal(imageSrc: string) {
+    this.selectedImage = imageSrc;
+  }
+
+  closeImageModal() {
+    this.selectedImage = null;
+  }
 }
