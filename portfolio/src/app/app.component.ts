@@ -7,6 +7,7 @@ import { EducationComponent } from './components/education/education.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CommonModule } from '@angular/common';
 import {DataService} from './services/data.service';
+import {SkillsComponent} from './components/skills/skills.component';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import {DataService} from './services/data.service';
     ProjectsComponent,
     AboutComponent,
     EducationComponent,
+    SkillsComponent,
     ContactComponent
   ]
 })

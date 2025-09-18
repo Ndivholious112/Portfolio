@@ -10,6 +10,7 @@ import { DataService } from '../../services/data.service';
 })
 export class ProjectsComponent {
   selectedImage: string | null = null;
+  selectedProject: any | null = null; // New property to hold the selected project
 
   constructor(public data: DataService) {}
 
@@ -19,5 +20,13 @@ export class ProjectsComponent {
 
   closeImageModal() {
     this.selectedImage = null;
+  }
+
+  openDescriptionModal(project: any) {
+    this.selectedProject = project;
+  }
+
+  closeDescriptionModal() {
+    this.selectedProject = null;
   }
 }
