@@ -1,12 +1,25 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { AboutComponent } from './components/about/about.component';
+import { EducationComponent } from './components/education/education.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    NavbarComponent,
+    HeroComponent,
+    ProjectsComponent,
+    AboutComponent,
+    EducationComponent,
+    ContactComponent
+  ]
 })
-export class AppComponent {
-  title = 'portfolio';
-}
+export class AppComponent {}
