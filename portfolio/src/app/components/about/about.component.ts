@@ -4,10 +4,9 @@ import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css'],
   standalone: true,
-  imports: [CommonModule]
+  imports: [CommonModule],
+  templateUrl: './about.component.html'
 })
 export class AboutComponent {
   constructor(public data: DataService) {}
