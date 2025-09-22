@@ -30,7 +30,7 @@ export class DataService {
     {
       title: 'SimpleBank',
       description: 'A minimalist expense tracker with secure authentication, transaction management, and a clean, responsive UI.',
-      thumbnail: '/assets/homepage.png', // Corrected path
+      thumbnail: '/assets/homepage2.png', // Corrected path
       tags: ['React', 'Vite', 'Node.js', 'Express', 'MongoDB', 'JWT'],
       type: 'web',
       // liveLink: '#', // add if deployed
@@ -48,7 +48,7 @@ export class DataService {
     {
       title: 'CookPad',
       description: 'A full-stack recipe sharing app where users can browse, add, edit, and delete recipes with secure authentication.',
-      thumbnail: '/assets/home.png',
+      thumbnail: '/assets/home2.png',
       tags: ['Angular', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'],
       type: 'web',
       // liveLink: '#',
