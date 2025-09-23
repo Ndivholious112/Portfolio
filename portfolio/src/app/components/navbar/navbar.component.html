@@ -1,10 +1,10 @@
-<nav class="p-6 md:px-12 flex justify-between items-center fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-md shadow-lg transition-all duration-300">
+<nav class="p-6 md:px-12 flex justify-between items-center fixed top-0 left-0 w-full z-50 surface backdrop-blur-md shadow-lg transition-all duration-300">
   <div class="flex items-center space-x-4">
     <a href="#" class="text-2xl font-bold tracking-wide transition-colors duration-300 name-gradient">
       {{ name }}
     </a>
   </div>
-  <div class="hidden md:flex space-x-8">
+  <div class="hidden md:flex items-center space-x-8">
     <a href="#projects" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
       Projects
     </a>
@@ -20,6 +20,9 @@
     <a href="#contact" class="text-sm font-medium text-white hover:text-teal-400 transition-colors duration-300">
       Contact
     </a>
+    <button (click)="toggleTheme()" class="ml-4 text-sm px-3 py-1 rounded-full border border-gray-700 text-gray-200 hover:bg-gray-800 transition">
+      {{ isLight ? 'Dark' : 'Light' }} Mode
+    </button>
   </div>
   <button (click)="toggleMenu()" class="md:hidden text-white hover:text-teal-400 transition-colors duration-300 focus:outline-none">
     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -36,4 +39,8 @@
   <a (click)="toggleMenu()" href="#about" class="text-2xl font-medium text-white hover:text-teal-400">About</a>
   <a (click)="toggleMenu()" href="#education" class="text-2xl font-medium text-white hover:text-teal-400">Education</a>
   <a (click)="toggleMenu()" href="#contact" class="text-2xl font-medium text-white hover:text-teal-400">Contact</a>
+  <button (click)="toggleTheme()" class="mt-4 text-lg px-4 py-2 rounded-full border border-gray-700 text-gray-200 hover:bg-gray-800 transition">
+    {{ isLight ? 'Dark' : 'Light' }} Mode
+  </button>
 </div>
+

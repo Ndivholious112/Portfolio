@@ -130,4 +130,17 @@ export class DataService {
   education(): EducationEntry[] {
     return this._education;
   }
+
+  slugify(value: string): string {
+    return value
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-');
+  }
+
+  getProjectBySlug(slug: string): Project | undefined {
+    return this._projects.find(p => this.slugify(p.title) === slug);
+  }
 }

@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { AboutComponent } from './components/about/about.component';
-import { EducationComponent } from './components/education/education.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { CommonModule } from '@angular/common';
-import {DataService} from './services/data.service';
-import {SkillsComponent} from './components/skills/skills.component';
+import { RouterOutlet } from '@angular/router';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -16,13 +10,7 @@ import {SkillsComponent} from './components/skills/skills.component';
   standalone: true,
   imports: [
     CommonModule,
-    NavbarComponent,
-    HeroComponent,
-    ProjectsComponent,
-    AboutComponent,
-    EducationComponent,
-    SkillsComponent,
-    ContactComponent
+    RouterOutlet
   ]
 })
 export class AppComponent {
