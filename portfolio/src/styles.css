@@ -12,6 +12,20 @@ html, body {
   overflow: hidden;
 }
 
+html.modal-open,
+html.modal-open body {
+  overflow: hidden;
+  height: 100%;
+}
+body.no-scroll {
+  overscroll-behavior: contain;
+}
+
+.overlay-blur {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
 .light body {
   background-color: #eef7f5; 
   color: #0f172a; 

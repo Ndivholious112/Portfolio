@@ -80,7 +80,16 @@ export class DataService {
       "type": "figma",
       "liveLink": "https://www.figma.com/proto/O4lejqEUd6v8JxsXFnz0qm/Portfolio?node-id=46-131&t=JGPLHBMZiSdYuKZU-1&scaling=min-zoom&content-scaling=fixed&page-id=123%3A6",
       "sourceLink": "https://www.figma.com/design/O4lejqEUd6v8JxsXFnz0qm/Portfolio?node-id=123-6"
-    }
+    },
+    {
+      "title": "Takeafew – Sprint Review",
+      "description": "A collaborative team project: a fully functional E-Commerce web application built using Vanilla JavaScript, HTML, CSS, and TailwindCSS, with Jest for testing. It allows users to browse products, manage a shopping cart, and simulate checkout with authentication, localStorage persistence, and unit testing of business logic.",
+      "thumbnail": "https://placehold.co/600x400/2D3748/A0AEC0?text=E-Commerce+App",
+      "tags": ["JavaScript", "HTML", "CSS", "TailwindCSS", "E-Commerce", "Vanilla JS", "Jest", "localStorage", "Team Project"],
+      "type": "web",
+      // "liveLink": "",
+      "sourceLink": "https://github.com/phumebyte/takeafew.git"
+    }    
   ];
 
   private _education: EducationEntry[] = [
