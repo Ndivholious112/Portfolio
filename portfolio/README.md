@@ -54,6 +54,40 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+## Deployment
+
+This project is configured for easy deployment on Vercel with Server-Side Rendering (SSR) support.
+
+### Deploying to Vercel
+
+1. **Connect your repository to Vercel:**
+   - Go to [vercel.com](https://vercel.com) and sign in
+   - Click "New Project"
+   - Import your Git repository
+
+2. **Vercel will automatically detect the Angular project** and use the configuration in `vercel.json`
+
+3. **Build settings (should be auto-detected):**
+   - Build Command: `ng build --configuration production`
+   - Output Directory: `dist/portfolio`
+   - Node.js Version: 18.x or later
+
+4. **Deploy:** Click "Deploy" and Vercel will build and deploy your portfolio
+
+### Manual Deployment (using Vercel CLI)
+
+If you prefer using the command line:
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel
+```
+
+The `vercel.json` file in the root directory contains the necessary configuration for SSR deployment.
+
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
