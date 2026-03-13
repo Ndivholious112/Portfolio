@@ -91,3 +91,4 @@ The `vercel.json` file in the root directory contains the necessary configuratio
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Vercel deployment fix
