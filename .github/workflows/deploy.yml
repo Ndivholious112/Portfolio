@@ -43,5 +43,9 @@ jobs:
         path: portfolio/dist/portfolio/browser
 
     - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: portfolio/dist/portfolio/browser
+        clean: true
+        commit-message: "Deploy to GitHub Pages from GitHub Actions"
