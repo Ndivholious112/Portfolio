@@ -1,96 +1,70 @@
-# Portfolio
-
-
-````markdown
 # My Professional Portfolio
 
-This is my personal portfolio website, built to showcase my projects, skills, and professional experience. It's designed to be a clear and dynamic representation of my work as a full-stack developer.
+This repository contains my **personal portfolio website**, created to showcase my projects, technical skills, and professional experience. The portfolio serves as a dynamic representation of my work as a **Full-Stack Developer**, highlighting both my development projects and my technical expertise.
+
+🌐 **Live Portfolio:**
+You can access the portfolio here:
+**[https://ndivholious112.github.io/Portfolio/](https://ndivholious112.github.io/Portfolio/)**
 
 ## Key Features
 
-* **Responsive Design:** The site is fully responsive and looks great on desktop, tablet, and mobile devices.
-* **Modern UI:** Built with **Angular 17+** and styled using **Tailwind CSS** to provide a clean, modern, and engaging user interface.
-* **Interactive Components:** Features dynamic animations and interactive elements to create a smooth user experience.
-* **Organized Structure:** Content is neatly separated into key sections: Projects, Application & Tool Knowledge, About, and Contact.
+* **Responsive Design:** The website is fully responsive and optimized for desktop, tablet, and mobile devices.
+* **Modern User Interface:** Built with **Angular 17+** and styled using **Tailwind CSS** to deliver a clean, modern, and engaging user experience.
+* **Interactive Components:** Includes dynamic animations and interactive elements that enhance usability and navigation.
+* **Structured Layout:** Content is organized into key sections including **Projects**, **Application & Tool Knowledge**, **About**, and **Contact**.
 
 ## Technologies Used
 
-This portfolio is a reflection of my **Application & Tool Knowledge**. Here’s a breakdown of the key technologies used:
+This portfolio reflects my **Application & Tool Knowledge**. Below is an overview of the key technologies used in development.
 
 ### Frontend
-* **Angular 17+**: The core framework for building the single-page application.
-* **React**: (Mention if you also have projects in React).
-* **JavaScript**: The programming language for all frontend logic.
-* **HTML & CSS**: The foundational languages for structuring and styling the web pages.
-* **Bootstrap**: Used for responsive design and UI components.
+
+* **Angular 17+** – Core framework used to build the single-page application.
+* **React** – Used in some of my other web projects.
+* **JavaScript** – Primary language for frontend logic and functionality.
+* **HTML & CSS** – Fundamental technologies for structuring and styling web pages.
+* **Bootstrap** – Used for responsive layouts and UI components.
 
 ### Backend
-* **Node.js & Express.js**: For building robust and scalable server-side applications.
-* **Spring Boot**: A powerful framework for building Java-based backend services.
+
+* **Node.js & Express.js** – Used for building scalable server-side applications.
+* **Spring Boot** – Framework for developing Java-based backend services.
 
 ### Databases
-* **MongoDB**: A NoSQL database used for flexible data storage.
-* **PostgreSQL & SQL**: My go-to relational databases for structured data.
+
+* **MongoDB** – NoSQL database for flexible and scalable data storage.
+* **PostgreSQL & SQL** – Relational databases used for structured data management.
 
 ### Data Science & Machine Learning
-* **Python**: The primary language for data analysis and machine learning.
-* **R & RStudio**: Used for statistical analysis and data visualization.
-* **Power BI & Excel**: Key tools for business intelligence and data manipulation.
-* **Machine Learning**: Showcases my understanding of ML concepts and applications.
 
-### Tools
-* **Git & GitHub**: Version control for collaborative development and code management.
-* **Figma**: For UI/UX design and prototyping.
-* **Trello**: A tool used for project management and tracking.
-* **Discord**: For team communication and collaboration.
-* **Word & PowerPoint**: Demonstrates proficiency in essential office applications.
+* **Python** – Used for data analysis and machine learning tasks.
+* **R & RStudio** – Applied for statistical analysis and data visualization.
+* **Power BI & Excel** – Tools used for business intelligence and data analysis.
+* **Machine Learning** – Demonstrates understanding of ML concepts and applications.
+
+### Development & Collaboration Tools
+
+* **Git & GitHub** – Version control and collaborative development.
+* **Figma** – UI/UX design and prototyping.
+* **Trello** – Project management and task tracking.
+* **Discord** – Team communication and collaboration.
+* **Microsoft Word & PowerPoint** – Documentation and presentation tools.
 
 ## Getting Started
 
-To get a local copy of this project up and running, follow these simple steps.
+Follow these steps to run a local copy of the portfolio project.
 
 ### Prerequisites
 
-You'll need to have Node.js and the Angular CLI installed on your machine.
+Ensure the following are installed on your machine:
+
+* **Node.js**
+* **Angular CLI**
 
 ```bash
-# Install Node.js (if not already installed)
-# Download from [https://nodejs.org/en/](https://nodejs.org/en/)
-
 # Install Angular CLI globally
 npm install -g @angular/cli@19
-````
-
-### Installation
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/Ndivholious112/portfolio
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd portfolio
-    ```
-3.  Install the dependencies:
-    ```bash
-    npm install
-    ```
-
-### Running the Application
-
-To start the development server, run the following command. The application will be accessible at `http://localhost:4200/`.
-
-```bash
-ng serve
 ```
 
-## Contact
-
-Feel free to reach out to me with any questions or opportunities.
-
-  * **LinkedIn:** (https://www.linkedin.com/in/ndivho-nemutshili-783343268/)
-
-<!-- end list -->
-
-```
-```
+If Node.js is not installed, download it from:
+[https://nodejs.org/en/](https://nodejs.org/en/)
