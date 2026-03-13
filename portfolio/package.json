@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "npx ng serve",
     "build": "npx ng build --configuration production",
+    "vercel-build": "npm install --include=dev && npx ng build --configuration production",
     "watch": "npx ng build --watch --configuration development",
     "test": "npx ng test",
     "serve:ssr:portfolio": "node dist/portfolio/server/server.mjs"
