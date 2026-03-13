@@ -24,7 +24,7 @@ export class DataService {
 
   private _name = 'Ndivho Nemutshili';
   private _jobTitle = 'Full Stack Developer & UI/UX Designer';
-  private _profilePic = 'https://media.licdn.com/dms/image/v2/D4D03AQG-HINfV8rREQ/profile-displayphoto-shrink_800_800/B4DZPegBREHcAc-/0/1734604757828?e=1761177600&v=beta&t=v0RO23rjgpt9yqnAhBVGK241i6tQjJbj_RTdaVqMZwo';
+  private _profilePic = 'assets/profile_image.png';
 
   private _projects: Project[] = [
     {
